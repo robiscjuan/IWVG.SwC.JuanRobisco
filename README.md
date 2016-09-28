@@ -4,7 +4,7 @@ Proyecto colaborativo
 # Programadores
 
 * [Alfonso Ayuso](https://github.com/fonsi5)
-* [Tie Lin Jiang](https://github.com/robiscjuan/IWVG.SwC.JuanRobisco/settings/collaboration)
+* [Tie Lin Jiang](https://github.com/JTL1992)
 * [Jose Maria Moreno](https://github.com/jotaseme)
 
 # Wiki
