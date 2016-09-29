@@ -34,5 +34,17 @@ public class DecimalCollection {
         }
         return higher;
     }
-
+    
+    public double multiplication() {
+        double mul = 1;    
+        if(this.collection.size() == 0){
+            return 0;  
+        }
+        else{
+            for (double item : this.collection) {
+                mul *= item;
+            }
+            return mul;
+        }
+    }
 }
