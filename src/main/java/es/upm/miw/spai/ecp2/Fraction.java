@@ -62,6 +62,13 @@ public class Fraction {
     
     public boolean isPropia() {
         return  numerator < denominator;
-    }    
+    }
+    
+    public Fraction subtraction(int numerador, int denominador){
+    	Fraction r = new Fraction((numerator * denominador) - 
+				(numerador * denominator),
+				(denominator * denominador));
+    	return r;
+    }
     
 }
