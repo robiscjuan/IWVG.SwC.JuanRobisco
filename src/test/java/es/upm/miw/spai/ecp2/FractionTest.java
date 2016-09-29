@@ -36,6 +36,13 @@ public class FractionTest {
         assertEquals(false,f.isPropia());
         f = new Fraction(3,2);
         assertEquals(false,f.isPropia());        
-    }	
-	
+    }
+    
+    @Test
+    public void testSubtraction() {
+        f = new Fraction(5,2);
+        Fraction resta = f.subtraction(1, 2);
+        assertEquals(8, resta.getNumerator());
+        assertEquals(4, resta.getDenominator());     
+    }
 }
