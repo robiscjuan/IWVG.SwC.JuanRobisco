@@ -29,4 +29,13 @@ public class FractionTest {
 		assertEquals((double)1/2, f.decimal(), 10e-3);
 	}
 
+    @Test
+    public void testIsPropia() {
+        assertEquals(true,f.isPropia());
+        f = new Fraction(2,2);
+        assertEquals(false,f.isPropia());
+        f = new Fraction(3,2);
+        assertEquals(false,f.isPropia());        
+    }	
+	
 }
