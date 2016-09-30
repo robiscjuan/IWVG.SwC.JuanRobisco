@@ -46,14 +46,12 @@ public class PointTest {
     
     @Test
     public void testSetX() {
-        this.p.setX(3);
-        assertEquals(3,p.getX());
+        assertEquals(3,p.setX(3));
     }
 
     @Test
     public void testSetY() {
-        this.p.setY(4);
-        assertEquals(4,p.getY());
+        assertEquals(4,p.setY(4));
     }
 
     @Test
