@@ -37,12 +37,14 @@ public class Point {
         this.y -= origin.getY();
     }
 
-    public void setX(int x){
+    public int setX(int x){
         this.x = x;
+        return this.x;
     }
     
-    public void setY(int y){
+    public int setY(int y){
         this.y = y;
+        return this.y;
     }
     
     @Override
