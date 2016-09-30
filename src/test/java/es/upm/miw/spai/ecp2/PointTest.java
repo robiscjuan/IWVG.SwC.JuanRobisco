@@ -1,6 +1,7 @@
 package es.upm.miw.spai.ecp2;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -41,6 +42,18 @@ public class PointTest {
         this.p.translateOrigin(new Point(1, 1));
         assertEquals(1, p.getX());
         assertEquals(2, p.getY());
+    }
+    
+    @Test
+    public void testSetX() {
+        this.p.setX(3);
+        assertEquals(3,p.getX());
+    }
+
+    @Test
+    public void testSetY() {
+        this.p.setY(4);
+        assertEquals(4,p.getY());
     }
 
     @Test
