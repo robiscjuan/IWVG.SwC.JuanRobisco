@@ -45,4 +45,12 @@ public class FractionTest {
         assertEquals(8, resta.getNumerator());
         assertEquals(4, resta.getDenominator());     
     }
+    
+    @Test
+    public void testMultiplication() {
+        f = new Fraction(1,2);
+        Fraction result = f.multiplication(2, 2);
+        assertEquals(2, result.getNumerator());
+        assertEquals(4, result.getDenominator());     
+    }
 }

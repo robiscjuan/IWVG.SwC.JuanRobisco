@@ -71,4 +71,8 @@ public class Fraction {
     	return r;
     }
     
+    public Fraction multiplication(int numerator,int denominator){
+        return new Fraction( (this.numerator* numerator),(this.denominator*denominator));
+    }
+    
 }
