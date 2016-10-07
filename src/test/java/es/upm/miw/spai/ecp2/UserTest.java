@@ -6,29 +6,29 @@ import org.junit.Before;
 import org.junit.Test;
 
 public class UserTest {
-	
+
 	private User u;
-	
+
 	@Before
-	public void before(){
+	public void before() {
 		u = new User(0, "Juan", "Robisco");
 	}
 
 	@Test
-	public void testGetNumber(){
+	public void testGetNumber() {
 		assertEquals(0, u.getNumber());
 	}
-	
+
 	@Test
-	public void testGetName(){
+	public void testGetName() {
 		assertEquals("Juan", u.getName());
 	}
-	
+
 	@Test
-	public void testGetFamilyName(){
+	public void testGetFamilyName() {
 		assertEquals("Robisco", u.getFamilyName());
 	}
-	
+
 	@Test
 	public void testFullName() {
 		assertEquals("Juan Robisco", u.fullName());
